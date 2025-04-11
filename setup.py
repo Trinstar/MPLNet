@@ -11,7 +11,7 @@ setuptools.setup(
     version="1.0.0",
     url="https://github.com/Trinstar/MPLNet",
     packages=setuptools.find_packages(),
-    author="Linpan Xu",
+    author="Linpan Xu, Tianyang Zhang",
     author_email="tannyecho@gmail.com",
     description="Multi-grained Prompt Learning with Vision-Language Model for Remote Sensing Image Scene Classification",
     long_description=long_description,
