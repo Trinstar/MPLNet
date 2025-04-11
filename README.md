@@ -11,3 +11,13 @@ pip install -U pip
 pip install -e .
 ```
 
+Special thanks to [GalLoP]([GitHub - MarcLafon/gallop: Adaptation of vision-language models (CLIP) to downstream tasks using local and global prompts.](https://github.com/MarcLafon/gallop)) for their powerful module that improved our code efficiency.
+
+## Training
+
+We provide training scripts in the `scripts` folder. For instance, 1-shot training and testing on NWPU_RESISC45:
+
+```bash
+bash scripts/run_resisc45.sh 1
+```
+
