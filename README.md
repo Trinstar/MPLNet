@@ -11,7 +11,7 @@ pip install -U pip
 pip install -e .
 ```
 
-Special thanks to [GalLoP]([GitHub - MarcLafon/gallop: Adaptation of vision-language models (CLIP) to downstream tasks using local and global prompts.](https://github.com/MarcLafon/gallop)) for their powerful module that improved our code efficiency.
+Special thanks to [GalLoP](https://github.com/MarcLafon/gallop) for their powerful module that improved our code efficiency.
 
 ## Training
 
