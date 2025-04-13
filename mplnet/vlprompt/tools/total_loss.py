@@ -4,7 +4,7 @@ import torch
 import torch.nn.functional as F
 from torch.nn.modules.loss import _WeightedLoss
 from torch import Tensor
-from mplnet.vlprompt.tools.tpcloss import TPCLoss
+from mplnet.vlprompt.tools.trcloss import TRCLoss
 
 NoneType = Type[None]
 
@@ -102,11 +102,11 @@ class TotalLoss(_WeightedLoss):
         lprompts_features = lprompts_features.squeeze(0) # m, d
 
         if lprompts_features is not None and gprompts_features is not None:
-            tpc_loss = (TPCLoss(gprompts_features, rprompts_features)  + TPCLoss(gprompts_features, lprompts_features)) / (2 * num_shots)
+            trc_loss = (TRCLoss(gprompts_features, rprompts_features)  + TRCLoss(gprompts_features, lprompts_features)) / (2 * num_shots)
             
  
 
-        return global_loss  + regional_loss + local_loss  + tpc_loss * 10
+        return global_loss  + regional_loss + local_loss  + trc_loss * 10
         
 
 

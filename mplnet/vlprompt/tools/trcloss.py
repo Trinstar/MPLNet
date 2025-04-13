@@ -2,7 +2,7 @@ import torch
 import torch.nn.functional as F
 from torch import Tensor
 
-def TPCLoss(gprompts_features: Tensor,
+def TRCLoss(gprompts_features: Tensor,
                       lprompts_features: Tensor,
                       ) -> float:
     
