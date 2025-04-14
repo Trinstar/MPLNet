@@ -1,6 +1,5 @@
 # MPLNet:  Multi-grained Prompt Learning with Vision-Language Model for Remote Sensing Image Scene Classification
-![Uploading model.png…]()
-
+![model](https://github.com/user-attachments/assets/7b4fba3c-acdb-4cbc-9409-b74951211e41)
 ## installation
 
 To install mplnet please use the following commands:
