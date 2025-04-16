@@ -1,4 +1,4 @@
-# MPLNet:  Multi-grained Prompt Learning with Vision-Language Model for Remote Sensing Image Scene Classification
+# MPLNet:  Multi-granularity Prompt Learning with Vision-Language Model for Remote Sensing Image Scene Classification
 
 ![model](https://github.com/user-attachments/assets/43caadd2-2aac-4d7a-aef9-6acd8fa80180)
 ## installation
